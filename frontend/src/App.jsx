@@ -8,6 +8,7 @@ import UseState from "./hooks/UseState";
 import Contact from "./components/pages/Contact";
 import Services from "./components/pages/Services";
 import UseEffect from "./hooks/UseEffect";
+import Form from "./components/Form";
 const App=()=>{
   return(<>   
     <Navbar/>
@@ -20,6 +21,7 @@ const App=()=>{
       <Route path="/service"element={<Services />}/>
       <Route path="/UseState"element={<UseState/>}/>
       <Route path="/UseEffect"element={<UseEffect/>}/>
+      <Route path="/Form"element={<Form/>}/>
   
     </Routes>
   </>
