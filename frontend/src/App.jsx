@@ -9,6 +9,7 @@ import Contact from "./components/pages/Contact";
 import Services from "./components/pages/Services";
 import UseEffect from "./hooks/UseEffect";
 import Form from "./components/Form";
+import Todo from "./components/Todo";
 const App=()=>{
   return(<>   
     <Navbar/>
@@ -22,6 +23,7 @@ const App=()=>{
       <Route path="/UseState"element={<UseState/>}/>
       <Route path="/UseEffect"element={<UseEffect/>}/>
       <Route path="/Form"element={<Form/>}/>
+      <Route path="/Todo"element={<Todo/>}/>
   
     </Routes>
   </>
